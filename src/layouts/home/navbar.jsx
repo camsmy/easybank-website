@@ -8,7 +8,7 @@ const Navbar = () =>{
         <nav className="bg-white sticky top-0 z-50">
             <div className='container flex justify-between items-center mx-auto'>
 
-            <div className="flex items-center flex-no-shrink mr-6 p-6">
+            <div className="flex items-center flex-no-shrink mr-6 p-4">
             <img src={logo} alt="website logo" />
         </div>
 
@@ -28,11 +28,11 @@ const Navbar = () =>{
             </div>
         </div>
 
-        <div className='p-6'>
+        <div className='p-4'>
             <Button
             name="Request Invite"
-            px="4"
-            py="2"
+            px="10"
+            py="4"
             />
         </div>
 

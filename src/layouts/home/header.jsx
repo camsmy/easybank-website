@@ -7,7 +7,7 @@ const Header = () => {
 
             <div className="flex-col flex-1 my-20 space-y-8 flex-wrap pl-20">
 
-                <h1 className='text-7xl font-light leading-tight'>
+                <h1 className='text-7xl font-light leading-tight text-primary-dark-blue'>
                     Next generation digital banking
                 </h1>
 
@@ -20,7 +20,7 @@ const Header = () => {
 
                     <Button
                         name="Request Invite"
-                        px="10"
+                        px="6"
                         py="4"
                     />
                 </div>
