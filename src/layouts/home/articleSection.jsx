@@ -2,7 +2,7 @@ import {ArticleCard} from '../../components/articleCardComponent'
 
 const ArticleSection = () =>{
     return(
-        <div className="py-16 px-20 space-y-6">
+        <div className="py-16 px-20 space-y-12">
 
             <h2 className="text-4xl font-light text-primary-dark-blue">
                 Latest Articles
