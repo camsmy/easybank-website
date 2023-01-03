@@ -3,7 +3,7 @@ import phoneHeader from '../assets/image-mockups.png'
 
 const Header = () =>{
     return(
-        <div className="fle">
+        <div className="flex">
 
             <div className="flex-col flex-1 my-20 space-y-8 flex-wrap pl-20">
 
