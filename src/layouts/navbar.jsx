@@ -1,6 +1,6 @@
-import logo from '../../assets/logo.svg'
-import {Button} from "../../components/buttonComponent"
-import {NavButton} from "../../components/navButtonComponent"
+import logo from '../assets/logo.svg'
+import {Button} from "../components/buttonComponent"
+import {NavButton} from "../components/navButtonComponent"
 
 const Navbar = () =>{
 
