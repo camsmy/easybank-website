@@ -5,10 +5,12 @@ const Button = (props) =>{
         inline-block text-sm leading-none border 
         rounded-full text-white font-bold hover:border-transparent hover:text-teal 
         hover:bg-white mt-4 lg:mt-0
+        hover:brightness-90 hover:contrast-200 hover:opacity-80 hover:saturate-50
         px-${props.px} py-${props.py}
         `}>
             {props.name}
         </a>
+        // px-${props.px} py-${props.py}
     )
 }
 

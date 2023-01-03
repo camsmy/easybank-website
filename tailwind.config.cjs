@@ -20,7 +20,7 @@ module.exports = {
       },
       fontFamily:{
         'Josefin':['Josefin Sans', 'sans-serif']
-      }
+      },
     },
   },
   plugins: [
