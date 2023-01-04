@@ -12,6 +12,8 @@ const Button = (props) =>{
             {props.name}
         </a>
         // px-${props.px} py-${props.py}
+        //px-6 py-4
+        // px-10 py-4
     )
 }
 

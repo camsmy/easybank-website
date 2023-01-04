@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('./assets/bg-intro-desktop.svg')",
+        'hero-pattern-mobile': "url('./assets/bg-intro-mobile.svg')",
       },
       colors:{
         'primary-dark-blue':'hsl(233, 26%, 24%)',
@@ -46,3 +47,11 @@ module.exports = {
 // ###FONT
 
 // - 300 400 700
+
+// <div className='pl-20 flex-1 bg-hero-pattern-mobile md:bg-hero-pattern bg-left bg-no-repeat'>
+{/* <img src={phoneHeader} alt="phone header" className=' 
+absolute  inset-y-7 z-50
+lg:w-5/12 lg:inset-y-1.5 lg:inset-x-2/3' />
+</div> */}
+
+//                 <img src={phoneHeader} alt="phone header" className='absolute w-5/12 inset-y-1.5 inset-x-2/3 hidden md:block' />
