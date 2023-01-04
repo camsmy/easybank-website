@@ -2,10 +2,11 @@ import {InfoCardSection} from '../../components/InfoCardSection'
 const InfoSection = ()=>{
 
     return(
-        <div className="bg-neutral-light-greyish-blue px-4 py-16 lg:px-20 space-y-12 text-center lg:text-left">
+        <div className="bg-neutral-light-greyish-blue px-4 py-16 space-y-12 text-center
+                    md:px-32
+                    lg:text-left">
 
-                <h2 className="font-light text-primary-dark-blue text-4xl
-                lg:text-4xl">
+                <h2 className="font-light text-primary-dark-blue text-4xl">
                     Why choose Easybank?
                 </h2>
 
