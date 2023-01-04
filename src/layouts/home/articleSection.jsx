@@ -15,7 +15,7 @@ const ArticleSection = () =>{
             lg:flex-row lg:space-x-8 lg:space-y-0 lg:px-0'>
 
                 <ArticleCard
-                imageSource="/assets/articleImages/image-currency.jpg"
+                imageSource="/image-currency.jpg"
                 title="Receive money in any currency with no fees"
                 author="Claire Robinson"
                 body="The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single"
