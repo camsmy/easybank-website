@@ -9,7 +9,7 @@ const Header = () => {
             <div className="flex-col my-10 space-y-4 flex-wrap text-center px-4
             md:text-left md:pl-20 md:space-y-8 md:flex-1 md:my-20">
 
-                <h1 className='text-4xl md:text-7xl font-light leading-tight text-primary-dark-blue'>
+                <h1 className='text-4xl md:text-6xl font-light leading-tight text-primary-dark-blue'>
                     Next generation digital banking
                 </h1>
 
@@ -29,13 +29,19 @@ const Header = () => {
 
             </div>
 
-            <div className='pl-20 lg:flex-1 bg-hero-pattern-mobile lg:bg-hero-pattern bg-left bg-no-repeat relative 
-            lg:bg-left z-10
+            <div className='pl-20 lg:flex-1 bg-hero-pattern-mobile bg-right bg-no-repeat relative
+            bg-cover 
+            lg:bg-left z-10 lg:bg-hero-pattern 
             '>
-                <div className='w-full h-64'>
-                <img src={phoneHeader} alt="phone header" className=' absolute
-                    inset-x-0 top-[-70px]
-                lg:w-5/12 lg:inset-y-1.5 lg:inset-x-2/3' />
+                <div className='w-full h-96'>
+                    <img src={phoneHeader} alt="phone header" className=' absolute
+                    m-auto left-0 right-0
+                    w-full inset-x-0 
+                    top-[-100px]
+                    max-w-sm
+                    sm:max-w-sm
+                    md:top-[-300px] md:max-w-screen-sm
+                    lg:min-w-min lg:top-[-220px] lg:left-[70px]' />
                 </div>
             </div>
 
