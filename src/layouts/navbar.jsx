@@ -31,11 +31,11 @@ const Navbar = () =>{
 
                 <div className="hidden w-full lg:block lg:w-auto">
                     <ul className="flex flex-col md:flex-row md:mt-0 md:text-sm md:font-medium">
-                        <NavButton name="Home"/>
-                        <NavButton name="About"/>
-                        <NavButton name="Contact"/>
-                        <NavButton name="Blog"/>
-                        <NavButton name="Convertion"/>
+                        <NavButton name="Home" href="/"/>
+                        <NavButton name="About" href="/about"/>
+                        <NavButton name="Contact" href="/contact"/>
+                        <NavButton name="Blog" href="/blog"/>
+                        <NavButton name="Convertion" href="/convertion"/>
                     </ul>
                 </div>
 
@@ -57,11 +57,11 @@ const Navbar = () =>{
                 :"hidden"} 
                 >
                     <ul className="flex flex-col lg:flex-row lg:mt-0 lg:text-sm lg:font-medium">
-                        <NavButton name="Home"/>
-                        <NavButton name="About"/>
-                        <NavButton name="Contact"/>
-                        <NavButton name="Blog"/>
-                        <NavButton name="Convertion"/>
+                        <NavButton name="Home" href="/"/>
+                        <NavButton name="About" href="/about"/>
+                        <NavButton name="Contact" href="/contact"/>
+                        <NavButton name="Blog" href="/blog"/>
+                        <NavButton name="Convertion" href="/convertion"/>
                     </ul>
                  </div>
 

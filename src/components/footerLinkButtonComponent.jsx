@@ -1,8 +1,9 @@
-const FooterLink = ({name}) =>{
+import {Link} from "react-router-dom"
+const FooterLink = ({name,href}) =>{
     return(
-        <a href="" className='text-white hover:text-primary-lime-green font-light'>
+        <Link to={href} className='text-white hover:text-primary-lime-green font-light'>
             {name}
-        </a>
+        </Link>
     )
 }
 export {FooterLink}

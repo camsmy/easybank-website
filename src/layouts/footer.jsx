@@ -36,25 +36,25 @@ const FooterSection = () =>{
 
                 <div className='flex-1 space-y-4'>
                          <div>
-                            <FooterLink name="About Us"/>
+                            <FooterLink name="About Us" href="/about"/>
                         </div>
                         <div>
-                            <FooterLink name="Contact Us"/>
+                            <FooterLink name="Contact Us" href="/contact"/>
                         </div>
                         <div>
-                            <FooterLink name="Blog"/>
+                            <FooterLink name="Blog" href="/blog"/>
                         </div>
                 </div>
 
                 <div className='flex-1 space-y-4'>
                         <div>
-                            <FooterLink name="Conversion"/>
+                            <FooterLink name="Conversion" href="/conversion"/>
                         </div>
                         <div>
-                             <FooterLink name="Support"/>
+                             <FooterLink name="Support" href="/support"/>
                         </div>
                         <div>
-                            <FooterLink name="Privacy Policy"/>
+                            <FooterLink name="Privacy Policy" href="/privacypolicy"/>
                         </div>
                 </div>
 

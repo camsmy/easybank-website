@@ -8,11 +8,9 @@ import {FooterSection as Footer} from '../layouts/footer'
 const Home = () => {
     return (
         <div className="bg-neutral-very-light-gray">
-            <Navbar />
             <Header />
             <InfoSection/>
             <LatestArticles/>
-            <Footer/>
         </div>
     )
 }
