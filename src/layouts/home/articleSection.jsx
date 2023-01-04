@@ -2,13 +2,16 @@ import {ArticleCard} from '../../components/articleCardComponent'
 
 const ArticleSection = () =>{
     return(
-        <div className="py-16 px-20 space-y-12">
+        <div className="py-16 space-y-12 px-4
+        lg:px-20">
 
-            <h2 className="text-4xl font-light text-primary-dark-blue">
+            <h2 className="text-3xl text-center font-light text-primary-dark-blue
+            lg:text-4xl lg:text-left">
                 Latest Articles
             </h2>
 
-            <div className='flex space-x-8'>
+            <div className='flex flex-col space-y-8
+            lg:flex-row lg:space-x-8'>
 
                 <ArticleCard
                 imageSource="/assets/articleImages/image-currency.jpg"
