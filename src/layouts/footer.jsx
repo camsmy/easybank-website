@@ -5,66 +5,56 @@ import pinterest from "../assets/icon-pinterest.svg"
 import twitter from "../assets/icon-twitter.svg"
 import youtube from "../assets/icon-youtube.svg"
 import {Button} from "../components/buttonComponent"
+import { FooterLink } from '../components/footerLinkButtonComponent'
+
 const FooterSection = () =>{
     return(
         <div className="bg-primary-dark-blue py-16 px-4 flex flex-col text-center justify-center items-center space-y-8
-        lg:flex-row lg:px-20 lg:space-y-0">
+        lg:flex-row lg:px-20 lg:space-y-0 lg:text-left lg:items-stretch">
 
-                <div className='flex-1 relative space-y-4 lg:space-y-0'>
+                <div className='flex-1 relative space-y-4'>
                     <img src={logo} alt="logo image"/>
                     <ul className='flex space-x-3 
                     lg:absolute lg:bottom-0'>
                         <li className='hover:cursor-pointer hover:bg-primary-lime-green'>
                             <img src={facebook} alt="" className=''/>
                         </li>
-                        <li className=''>
+                        <li className='hover:cursor-pointer hover:bg-primary-lime-green'>
                             <img src={youtube} alt="" />
                         </li>
-                        <li className=''>
+                        <li className='hover:cursor-pointer hover:bg-primary-lime-green'>
                             <img src={twitter} alt="" />
                         </li>
-                        <li className=''>
+                        <li className='hover:cursor-pointer hover:bg-primary-lime-green'>
                             <img src={pinterest} alt="" />
                         </li>
-                        <li className=''>
+                        <li className='hover:cursor-pointer hover:bg-primary-lime-green'>
                             <img src={instagram} alt="" />
                         </li>
                     </ul>
                 </div>
 
                 <div className='flex-1 space-y-4'>
-                <div>
-                            <a href="" className='text-white hover:text-primary-lime-green font-light'>
-                                About us
-                            </a>
+                         <div>
+                            <FooterLink name="About Us"/>
                         </div>
                         <div>
-                             <a href="" className='text-white hover:text-primary-lime-green font-light'>
-                                Contact us
-                            </a>
+                            <FooterLink name="Contact Us"/>
                         </div>
                         <div>
-                            <a href="" className='text-white hover:text-primary-lime-green font-light'>
-                               Blog
-                            </a>
+                            <FooterLink name="Blog"/>
                         </div>
                 </div>
 
                 <div className='flex-1 space-y-4'>
                         <div>
-                            <a href="" className='text-white hover:text-primary-lime-green font-light'>
-                                Conversion
-                            </a>
+                            <FooterLink name="Conversion"/>
                         </div>
                         <div>
-                             <a href="" className='text-white hover:text-primary-lime-green font-light'>
-                                Support
-                            </a>
+                             <FooterLink name="Support"/>
                         </div>
                         <div>
-                            <a href="" className='text-white hover:text-primary-lime-green font-light'>
-                                Privacy Policy
-                            </a>
+                            <FooterLink name="Privacy Policy"/>
                         </div>
                 </div>
 

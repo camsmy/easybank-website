@@ -49,8 +49,9 @@ const Navbar = () =>{
 
             </div>
 
-            <div className={navToggle?'bg-gradient-to-b from-neutral-700 to-transparent p-8 absolute w-full'
-                    :"hidden"}>
+            <div className={navToggle?'bg-gradient-to-b from-neutral-700 to-transparent p-8 absolute w-full lg:hidden'
+                    :"hidden"}
+                    >
 
                 <div class={navToggle?"bg-white rounded-md"
                 :"hidden"} 

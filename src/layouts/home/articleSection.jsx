@@ -12,7 +12,7 @@ const ArticleSection = () =>{
 
             <div className='flex flex-col space-y-8
             md:px-32
-            lg:flex-row lg:space-x-8'>
+            lg:flex-row lg:space-x-8 lg:space-y-0 lg:px-0'>
 
                 <ArticleCard
                 imageSource="/assets/articleImages/image-currency.jpg"
