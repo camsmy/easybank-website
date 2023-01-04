@@ -7,9 +7,11 @@ const Header = () => {
         <div className="flex flex-col-reverse lg:flex-row">
 
             <div className="flex-col my-10 space-y-4 flex-wrap text-center px-4
-            md:text-left md:pl-20 md:space-y-8 md:flex-1 md:my-20">
+            md:pt-20
+            lg:text-left lg:pl-20 lg:space-y-8 lg:flex-1 lg:my-20">
 
-                <h1 className='text-4xl md:text-6xl font-light leading-tight text-primary-dark-blue'>
+                <h1 className='text-4xl font-light leading-tight text-primary-dark-blue
+                md:text-6xl'>
                     Next generation digital banking
                 </h1>
 
