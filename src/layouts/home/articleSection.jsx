@@ -11,6 +11,7 @@ const ArticleSection = () =>{
             </h2>
 
             <div className='flex flex-col space-y-8
+            md:px-32
             lg:flex-row lg:space-x-8'>
 
                 <ArticleCard
