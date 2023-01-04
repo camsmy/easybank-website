@@ -11,9 +11,9 @@ const Navbar = () =>{
 
     return(
     <>
-    <nav class="sticky top-0 z-50 bg-white px-2 sm:px-4 py-2.5 rounded">
+    <nav class="sticky top-0 z-50 lg:bg-white rounded">
 
-            <div class="container flex flex-wrap items-center justify-between mx-auto">
+            <div class="container flex flex-wrap items-center justify-between mx-auto px-4 py-2.5 bg-white">
 
                 <a href="" class="flex items-cente">
                     <img src={logo} alt="website logo" />
@@ -47,10 +47,8 @@ const Navbar = () =>{
                 </div>
 
             </div>
-    </nav>
-
-        <div className={navToggle?'bg-gradient-to-t from-slate-100 via-stone-300 to-slate-900 p-5'
-        :"hidden"}>
+            <div className={navToggle?'bg-gradient-to-b from-neutral-700 to-transparent p-5'
+                    :"hidden"}>
 
                 <div class={navToggle?"w-full md:block md:w-auto p-5 bg-white rounded-md"
                 :"hidden"} 
@@ -65,6 +63,7 @@ const Navbar = () =>{
         </div>
 
         </div>
+    </nav>
     </>
     )
 }

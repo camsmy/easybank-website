@@ -2,9 +2,10 @@ import {InfoCardSection} from '../../components/InfoCardSection'
 const InfoSection = ()=>{
 
     return(
-        <div className="bg-neutral-light-greyish-blue py-16 px-20 space-y-12">
+        <div className="bg-neutral-light-greyish-blue px-4 py-16 lg:px-20 space-y-12 text-center lg:text-left">
 
-                <h2 className="font-light text-primary-dark-blue text-4xl">
+                <h2 className="font-light text-primary-dark-blue text-4xl
+                lg:text-4xl">
                     Why choose Easybank?
                 </h2>
 
@@ -13,11 +14,11 @@ const InfoSection = ()=>{
                     We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before. 
                     </p>
 
-                    <p className='flex-1'></p>
+                    <p className='flex-1 hidden lg:block'></p>
                 </div>
                 
 
-                <div className='flex'>
+                <div className='flex flex-col lg:flex-row'>
                         <InfoCardSection
                         imageName={'/assets/icon-onboarding.svg'}
                         title="Online Banking"

@@ -30,7 +30,7 @@ const Header = () => {
             </div>
 
             <div className='pl-20 md:flex-1 bg-hero-pattern-mobile md:bg-hero-pattern bg-left bg-no-repeat
-            
+            lg:bg-right z-10
             '>
                 <div className='w-full h-64'>
                 <img src={phoneHeader} alt="phone header" className=' absolute
