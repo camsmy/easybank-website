@@ -7,11 +7,13 @@ import youtube from "../assets/icon-youtube.svg"
 import {Button} from "../components/buttonComponent"
 const FooterSection = () =>{
     return(
-        <div className="bg-primary-dark-blue py-16 px-20 flex">
+        <div className="bg-primary-dark-blue py-16 px-4 flex flex-col text-center justify-center items-center space-y-8
+        lg:flex-row lg:px-20 lg:space-y-0">
 
-                <div className='flex-1 relative'>
+                <div className='flex-1 relative space-y-4 lg:space-y-0'>
                     <img src={logo} alt="logo image"/>
-                    <ul className='flex space-x-3 absolute bottom-0'>
+                    <ul className='flex space-x-3 
+                    lg:absolute lg:bottom-0'>
                         <li className='hover:cursor-pointer hover:bg-primary-lime-green'>
                             <img src={facebook} alt="" className=''/>
                         </li>
@@ -66,15 +68,17 @@ const FooterSection = () =>{
                         </div>
                 </div>
 
-                <div className='relative flex-1'>
-                    <div className='absolute right-0 '>
+                <div className='relative flex-1 space-y-4
+                lg:spacey-0'>
+                    <div className='lg:absolute lg:right-0 '>
                         <Button
                         name="Request Invite"
                         px="10"
                         py="4"/>
                     </div>
 
-                    <p className='text-neutral-grayish-blue absolute bottom-0 right-0'>
+                    <p className='text-neutral-grayish-blue 
+                    lg:absolute lg:bottom-0 lg:right-0'>
                         &#169; Easybank. All Rights Reserved
                     </p>
                 </div>
