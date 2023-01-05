@@ -31,11 +31,11 @@ const Navbar = () =>{
 
                 <div className="hidden w-full lg:block lg:w-auto">
                     <ul className="flex flex-col md:flex-row md:mt-0 md:text-sm md:font-medium">
-                        <NavButton name="Home" href="/"/>
-                        <NavButton name="About" href="/about"/>
-                        <NavButton name="Contact" href="/contact"/>
-                        <NavButton name="Blog" href="/blog"/>
-                        <NavButton name="Convertion" href="/convertion"/>
+                        <NavButton name="Home" href="/easybank-website/"/>
+                        <NavButton name="About" href="/easybank-website/about"/>
+                        <NavButton name="Contact" href="/easybank-website/contact"/>
+                        <NavButton name="Blog" href="/easybank-website/blog"/>
+                        <NavButton name="Convertion" href="/easybank-website/convertion"/>
                     </ul>
                 </div>
 
@@ -57,11 +57,11 @@ const Navbar = () =>{
                 :"hidden"} 
                 >
                     <ul className="flex flex-col lg:flex-row lg:mt-0 lg:text-sm lg:font-medium">
-                        <NavButton name="Home" href="/"/>
-                        <NavButton name="About" href="/about"/>
-                        <NavButton name="Contact" href="/contact"/>
-                        <NavButton name="Blog" href="/blog"/>
-                        <NavButton name="Convertion" href="/convertion"/>
+                        <NavButton name="Home" href="/easybank-website/"/>
+                        <NavButton name="About" href="/easybank-website/about"/>
+                        <NavButton name="Contact" href="/easybank-website/contact"/>
+                        <NavButton name="Blog" href="/easybank-website/blog"/>
+                        <NavButton name="Convertion" href="/easybank-website/convertion"/>
                     </ul>
                  </div>
 
