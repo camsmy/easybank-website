@@ -3,7 +3,7 @@ const NewArticles = () =>{
     return(
         <div className="w-full bg-primary-dark-blue px-4 py-8 space-y-8
         lg:w-4/12 ">
-            <h1 className="text-3xl font-bold text-neutral-light-greyish-blue">
+            <h1 className="text-3xl font-bold text-neutral-grayish-blue ">
                 Latest Posts
             </h1>
 
